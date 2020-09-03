@@ -1,0 +1,4 @@
+<div id="products-container">
+
+<app-product-card (suppProduct)="remove($event)" *ngFor="let p of produits" [product]="p"></app-product-card>
+</div>

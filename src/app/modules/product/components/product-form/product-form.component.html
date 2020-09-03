@@ -1,0 +1,16 @@
+<form [formGroup]="productForm" (submit)="submitProduct()">
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="" formControlName="name" required type="text" #inputname name="name" >
+       
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Price</mat-label>
+        <input matInput type="number" placeholder="" formControlName="price" name="price" min="1" required >
+    </mat-form-field>
+
+    <button mat-raised-button color="primary"  type="submit">Add</button>
+
+</form>
