@@ -8,10 +8,11 @@ import { ProductFormComponent } from './components/product-form/product-form.com
 import { ProductDashboardComponent } from './components/product-dashboard/product-dashboard.component';
 import { MaterialModule } from 'src/app/material.module';
 import { SharedModule } from '../shared/shared.module';
+import { DetailsProductComponent } from './components/details-product/details-product.component';
 
 
 @NgModule({
-  declarations: [ProductCardComponent, ProductListComponent, ProductFormComponent, ProductDashboardComponent],
+  declarations: [ProductCardComponent, ProductListComponent, ProductFormComponent, ProductDashboardComponent, DetailsProductComponent],
   imports: [
     CommonModule,
     ProductRoutingModule,

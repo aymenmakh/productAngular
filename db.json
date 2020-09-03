@@ -16,17 +16,34 @@
   "profile": {
     "name": "typicode"
   },
-
-  "products" : [
-    { 
-        "name" : "p1",
-        "price" : "10"
-
+  "products": [
+    {
+      "name": "p1",
+      "price": "10"
     },
     {
-        "name" : "p1",
-        "price" : "10"
-
+      "name": "p1",
+      "price": "7"
+    },
+    {
+      "id": 1,
+      "name": "dsq",
+      "price": 4
+    },
+    {
+      "id": 2,
+      "name": "",
+      "price": ""
+    },
+    {
+      "id": 147,
+      "name": "dqs",
+      "price": 147
+    },
+    {
+      "id": 10,
+      "name": "dqs",
+      "price": 10
     }
-]
+  ]
 }
